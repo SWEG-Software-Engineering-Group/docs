@@ -1,5 +1,5 @@
 # docs
-Documentazione interna e verbali del gruppo
+Documentazione interna, esterna e verbali del gruppo.
 
 Ingegneria del Software - Gruppo SWEG
 
