@@ -1,0 +1,14 @@
+on: [push, pull_request]
+
+jobs:
+  build_documenti:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+        
+      - name: Upload PDF files
+        uses: actions/upload-artifact@v3
+        with:
+          name: documentazione
+          path: "**/*.pdf"
