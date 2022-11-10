@@ -13,7 +13,7 @@ jobs:
           name: documentazione
           path: "**/*.pdf"
           
-      - name: Upload PDF files
+      - name: Upload PPT files
         uses: actions/upload-artifact@v3
         with:
           name: diari di bordo
