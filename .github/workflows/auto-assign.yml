@@ -10,5 +10,5 @@ jobs:
     steps:
       - uses: wow-actions/auto-assign@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.Token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONFIG_FILE: .github/auto-assign.yml
